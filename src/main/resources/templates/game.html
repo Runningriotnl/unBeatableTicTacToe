@@ -7,26 +7,50 @@
 </head>
 <body>
 <p th:text="'Hello!'" />
-<p>
-    <table class="table table-bordered">
-        <tbody>
-            <tr>
-                <td>O</td>
-                <td>X</td>
-                <td>X</td>
-            </tr>
-            <tr>
-                <td>O</td>
-                <td>X</td>
-                <td>X</td>
-            </tr>
-            <tr>
-                <td>O</td>
-                <td>X</td>
-                <td>X</td>
-            </tr>
-        </tbody>
-    </table>
-</p>
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+        </div>
+        <div class="col-sm">
+            <table style="width: 33.33%" class="table table-dark table-bordered">
+                <tr>
+                    <td style="width: 33.33%">
+                        <button type="button" class="cell" id="cell00"></button>
+                    </td>
+                    <td style="width: 33.33%">
+                        <button type="button" class="cell" id="cell01"></button>
+                    </td>
+                    <td style="width: 33.33%">
+                        <button type="button" class="cell" id="cell02"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 33.33%">
+                        <button type="button" class="cell" id="cell10"></button>
+                    </td>
+                    <td style="width: 33.33%">
+                        <button type="button" class="cell" id="cell11"></button>
+                    </td>
+                    <td style="width: 33.33%">
+                        <button type="button" class="cell" id="cell12"></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 33.33%">
+                        <button type="button" class="cell" id="cell20"></button>
+                    </td>
+                    <td style="width: 33.33%">
+                        <button type="button" class="cell" id="cell21"></button>
+                    </td>
+                    <td style="width: 33.33%">
+                        <button type="button" class="cell" id="cell22"></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-sm">
+        </div>
+    </div>
+</div>
 </body>
 </html>
